@@ -1,0 +1,110 @@
+.bg-yellow{
+	/*background-color: #d4bb56;*/
+	/*background-color: #e2ba48;*/
+	background-color: #e2b348;
+}
+
+.bg-transparent{
+	background-color: transparent;
+}
+
+.bg-black{
+	background-color: black;
+}
+
+.bg-img-1{
+	background-image: url('../img/typewriter.png');
+	background-color: white;
+	background-size: cover;
+	background-position: center center;
+}
+
+.navbar-brand img{
+	max-height: 40px;
+}
+
+.outline-none{
+	outline: none;
+}
+
+.full-height{
+	height: 100vh;
+}
+
+h1{
+	/*font-family: 'Playfair Display', serif;*/
+	/*font-family: 'Lobster', cursive;*/
+	/*font-family: 'Abril Fatface', cursive;*/
+	/*font-family: 'Courgette', cursive;*/
+	/*font-family: 'Kaushan Script', cursive;*/
+	/*font-family: 'Cookie', cursive;*/
+	font-family: 'Lobster Two', cursive;
+	/*font-family: 'Merienda', cursive;*/
+	font-weight: bold;
+}
+
+p{
+	font-family: 'Arapey', serif;
+	font-style: italic;
+}
+
+footer{
+	height: 40px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+figcaption {
+	color: #212529 !important;
+}
+
+.countdown{
+	margin-bottom: 150px;
+}
+
+.subscription-title{
+	font-family: 'Cookie', cursive;
+}
+
+.subscription-box input {
+    background: #212529;
+    color: white;
+    border: 2px solid #212529;
+    padding: 15px 15px;
+    width: 150px !important;
+}
+
+.subscription-box input:focus,
+.subscription-box input:active{
+	background: #212529;
+    color: white;
+    border: 2px solid #212529;
+    padding: 15px 15px;
+}
+
+.subscription-box input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.subscription-box input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.subscription-box input::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+
+.subscription-box button[type="submit"]{
+	background-color: transparent;
+	color: white;
+	border-color: white;
+	border-width: 2px;
+	font-size: 14px;
+}
+
+.subscription-box button[type="submit"]:hover{
+	background-color: white;
+	color: #212529;
+	transition-delay: 0.3s;
+	transition-property: background-color, color;
+}
