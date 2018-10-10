@@ -70,6 +70,27 @@ figcaption {
 	color: #212529 !important;
 }
 
+.nav-link i{
+	font-size: 24px;
+}
+
+.nav-link i.ion-logo-facebook{
+	color: #3B5998;
+}
+
+.nav-link i.ion-logo-twitter{
+	color: #1da1f2;
+}
+
+.nav-link i.ion-logo-instagram{
+	color: #5851db;
+	/*color: white;  Old browsers */
+	/*background: -moz-linear-gradient(-45deg, #5851db 0%, #833ab4 26%, #fd1d1d 57%, #f77737 78%, #ffdc80 100%);*/
+	/*background: -webkit-linear-gradient(-45deg, #5851db 0%,#833ab4 26%,#fd1d1d 57%,#f77737 78%,#ffdc80 100%); /* Chrome10-25,Safari5.1-6 */*/
+	/*background: linear-gradient(135deg, #5851db 0%,#833ab4 26%,#fd1d1d 57%,#f77737 78%,#ffdc80 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5851db', endColorstr='#ffdc80',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */*/
+}
+
 .countdown{
 	margin-bottom: 150px;
 }
