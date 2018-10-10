@@ -43,6 +43,11 @@ h1{
 	font-weight: bold;
 }
 
+.welcome-text h3{
+	font-family: 'Arapey', serif;
+	font-style: italic;
+}
+
 p{
 	font-family: 'Arapey', serif;
 	font-style: italic;
