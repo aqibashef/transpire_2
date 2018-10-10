@@ -48,6 +48,14 @@ p{
 	font-style: italic;
 }
 
+a {
+	color: #212529;
+}
+
+a:hover{
+	color: #212529;
+}
+
 footer{
 	height: 40px;
 	background-color: rgba(255, 255, 255, 0.5);
